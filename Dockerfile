@@ -1,5 +1,3 @@
-MAINTAINER farshad.nematdoust@snapp.cab
-#Create building environment
 FROM golang:1.11-alpine as build-env
 RUN apk add git gcc
 RUN mkdir /app
